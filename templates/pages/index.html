@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center border border-white">
+  <div class="card-body">
+    <h1>Welcome To <span style="font-family: 'Monoton', cursive;">Jay<span class="text-warning">.Em</span>Polls</span></h1>
+    <p>Your one stop for Polls</p>
+    <a class="btn btn-dark" href="{% url 'polls:index' %}">
+        View Available Polls</a
+      >
+  </div>
+  </div>
+{% endblock %}
